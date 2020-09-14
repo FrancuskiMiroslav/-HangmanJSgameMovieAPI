@@ -1,0 +1,28 @@
+$main_font: 'Roboto', sans-serif;
+$secondary_font: 'Gilroy', cursive;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic');
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Light.otf');
+	src: url('../fonts/Gilroy-ExtraBold.otf');
+}
+
+$primary_clr: rgb(64, 63, 111);
+$secondary_clr: rgb(69, 181, 170);
+$tertiary_clr: #efefef;
+
+$show-image: true;
+$home-image: url(../images/home-bg-min.jpg);
+$background-opacity: 0.85;
+
+$fw-normal: 400;
+$fw-bold: 700;
+
+$min_width: 320px;
+$max_width: 3840px;
+$min_font: 14px;
+$max_font: 24px;
